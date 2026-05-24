@@ -3,7 +3,6 @@ import Image from "next/image";
 const Avatar = () => {
   return (
     className="flex xl:flex xl:max-w-none pointer-events-none select-none"
-(I just replaced hidden with flex).
       <Image
         src="/avatar.png"
         alt="avatar"
