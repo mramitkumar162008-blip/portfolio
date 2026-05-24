@@ -70,7 +70,7 @@ I help creators and brands turn their ideas into powerful visual stories that ca
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[700px] max-h-[1000px] absolute -bottom-100 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[700px] max-h-[1000px] absolute -bottom-32 md:bottom-0 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>
