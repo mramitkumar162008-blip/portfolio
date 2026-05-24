@@ -19,16 +19,16 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Amit kumar | Portfolio</title>
+        <title>Amit creations. | Portfolio</title>
         <meta
           name="description"
-          content="Amit kumar is a Full-stack web developer with 10+ years of experience."
+          content="Amit creations. is a Full-stack web developer with 10+ years of experience."
         />
         <meta
           name="keywords"
           content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Amit kumar" />
+        <meta name="author" content="Amit creations." />
         <meta name="theme-color" content="#f13024" />
       </Head>
 
