@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Avatar = () => {
   return (
-    <div className="hidden xl:flex xl:max-w-none pointer-events-none select-none">
+    <div className="flex justify-center items-end w-full pointer-events-none select-none">
       <Image
         src="/avatar.png"
         alt="avatar"
-        width={200}
+        width={500}
         height={678}
-        className="translate-z-0 w-full h-full -mt-40"
+       className="w-[400px] sm:w-[320px] md:w-[400px] lg:w-[650px] h-auto"
       />
     </div>
   );

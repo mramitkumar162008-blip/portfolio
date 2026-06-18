@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "https://www.instagram.com/reel/DYM4HmBI77j/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DZmZ61to3VM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
-          title: "title",
+          title: "motion graphics Talking Head Edits",
           path: "/thumb2.jpg",
-          link: "https://www.instagram.com/reel/DYR0nPgoD4J/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DZty8kKIZI4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
-          title: "title",
+          title: "Informative motion graphics",
           path: "/thumb3.jpg",
-          link: "https://www.instagram.com/reel/DT5NsLlD_4M/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DZqvi__ocEu/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "https://www.instagram.com/reel/DYHcUZyI5Hk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DYM4HmBI77j/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
       ],
     },
@@ -39,17 +39,17 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb4.jpg",
-          link: "https://www.instagram.com/reel/DUsmcplCKfA/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DZt1yXsIuUU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "https://www.instagram.com/reel/DULG4QaiJXP/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DUdM9TRCET4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "https://www.instagram.com/reel/DYFKPNHoenI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+          link: "https://www.instagram.com/reel/DYHcUZyI5Hk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         },
         {
           title: "title",

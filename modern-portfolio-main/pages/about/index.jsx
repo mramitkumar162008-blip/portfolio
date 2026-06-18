@@ -36,6 +36,7 @@ export const aboutData = [
       {
         title: "Smooth Motion Graphics",
         icons: ["/icons/davinci.png",
+          "/icons/premiere.png",
            "/icons/canva.png"
         ],
       },
@@ -57,7 +58,7 @@ export const aboutData = [
 
 At that time, I had limited experience and no personal computer, so I learned everything using my phone. I mastered CapCut and used it for over a year.
 
-After getting my new laptop, I discovered DaVinci Resolve. At first, it seemed difficult and intimidating, but I stayed consistent and kept learning. After more than 1.5 years of dedicated practice, I built a strong foundation in DaVinci Resolve, especially in color grading, cinematic editing, and storytelling.
+After getting my new laptop, I discovered DaVinci Resolve. At first, it seemed difficult and intimidating, but I stayed consistent and kept learning. After more than 1.5 years of dedicated practice, I built a strong foundation in DaVinci Resolve, especially in fusion page where we can create literally anything in editing(3d motion graphics,VFX etc), colour grading and text typography
 
 I am currently also learning Premiere Pro to expand my editing skills further. In 2025, I started my freelancing journey to help creators make their videos more engaging and professional.`,
         stage: "",
@@ -71,16 +72,16 @@ I am currently also learning Premiere Pro to expand my editing skills further. I
     title: "experience",
     info: [
       {
-        title: "Mastered Davinci Resolve",
+        title: "Mastered Davinci Resolve and Premiere Pro",
         stage: "2023 - 2026",
       },
       {
-        title: "Mastered Adobe Photoshop",
+        title: "Mastered Adobe Photoshop and GIMP",
         stage: "2024 - 2026",
       },
       {
         title: "Freelancing Vdeo Editing",
-        stage: "2024 - 2026",
+        stage: "2026",
       },
     ],
   },
@@ -103,16 +104,7 @@ const About = () => {
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
 
-      {/* avatar img */}
-      <motion.div
-        variants={fadeIn("right", 0.2)}
-        initial="hidden"
-        animate="show"
-        exit="hidden"
-        className="hidden xl:flex absolute bottom-0 -left-[370px]"
-      >
-        <Avatar />
-      </motion.div>
+     
 
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
@@ -143,7 +135,7 @@ const About = () => {
             variants={fadeIn("right", 0.6)}
             initial="hidden"
             animate="show"
-            className="hidden md:flex md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8"
+            className="flex flex-wrap justify-center md:max-w-xl xl:max-w-none mx-auto xl:mx-0 mt-0 mb-0 gap-6"
           >
             <div className="flex flex-1 xl:gap-x-6">
               {/* experience */}
@@ -179,10 +171,10 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={2} duration={5} />
+                  <CountUp start={0} end={5} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
+                  Tools mastered.
                 </div>
               </div>
             </div>

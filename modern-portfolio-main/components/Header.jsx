@@ -5,13 +5,13 @@ import Socials from "../components/Socials";
 
 const Header = () => {
   return (
-    <header className="absolute z-30 w-full items-center px-16 xl-px-0 xl:h-[90px]">
+    <header className="absolute top-0 z-30 w-full items-center px-16 xl:px-0 xl:h-[90px] pt-0">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
+        <div className="flex justify-between items-center py-4">
           {/* logo */}
-          <Link href="/">
+          <Link href={"/"} className="-ml-8">
             <h1 className="text-6xl font-bold text-white">
-  Amit <span className="text-accent">Kumar</span>
+   Amit <span className="text-accent ml-[-8px]">Creations.</span>
 </h1>
           </Link>
 

@@ -22,7 +22,7 @@ const serviceData = [
   {
     Icon: RxPencil2,
     title: "Motion graphics",
-    description: "Creating dynamic motion graphics that bring ideas to life.",
+    description: "Creating 3D dynamic motion graphics that bring ideas to life.",
   },
   {
     Icon: RxDesktop,
@@ -31,13 +31,13 @@ const serviceData = [
   },
   {
     Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Short reel",
+  description: "i convert short raw videos into powerful short reels that capture attention and engage viewers on social media platforms.",
   },
   {
     Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "long youtube videos", 
+    description: "Transforming raw, unedited footage into polished, well-paced YouTube videos — with clean cuts, smooth transitions, and a structure that keeps viewers watching longer.",
   },
 ];
 

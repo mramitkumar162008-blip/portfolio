@@ -10,11 +10,7 @@ import {
 } from "react-icons/ri";
 
 export const socialData = [
-  {
-    name: "YouTube",
-    link: "https://youtube.com",
-    Icon: RiYoutubeLine,
-  },
+
   {
     name: "Instagram",
     link: "https://www.instagram.com/amitcreationss/",
@@ -25,7 +21,7 @@ export const socialData = [
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
+    <div className="flex items-center gap-x-6 text-2xl relative -top-7">
       {socialData.map((social, i) => (
         <Link
           key={i}

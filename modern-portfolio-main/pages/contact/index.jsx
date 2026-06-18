@@ -1,3 +1,5 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -6,29 +8,27 @@ import { useState } from "react";
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
+  const form = useRef();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    setIsLoading(true);
+   const handleSubmit = (e) => {
+  e.preventDefault();
+  setIsLoading(true);
 
-    const myForm = event.target;
-    const formData = new FormData(myForm);
-
-    fetch("/__forms.html", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
-    })
-      .then((res) => {
-        if (res.status === 200) {
-          alert("Thank you. I will get back to you ASAP.");
-        } else {
-          console.log(res);
-        }
-      })
-      .catch((error) => console.log(error))
-      .finally(() => setIsLoading(false));
-  };
+  emailjs.sendForm(
+    "service_dgtrn6i",
+    "template_qjbbafg",
+    form.current,
+    "TpApVjfrIRyLCMF3G"
+  )
+  .then(() => {
+    alert("Message sent successfully!");
+  })
+  .catch((error) => {
+    console.log(error);
+    alert("Failed to send message");
+  })
+  .finally(() => setIsLoading(false));
+};
 
   return (
     <div className="h-full bg-primary/30">
@@ -47,7 +47,7 @@ const Contact = () => {
           </motion.h2>
 
           {/* form */}
-          <motion.form
+          <motion.form ref={form}
             variants={fadeIn("up", 0.4)}
             initial="hidden"
             animate="show"
