@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 const Header = () => {
   return (
-    <header className="absolute top-0 z-30 w-full items-center px-16 xl:px-0 xl:h-[90px] pt-0">
+    <header className="relative md:absolute z-30 w-full items-center px-6 md:px-16 xl:px-0 xl:h-[90px]">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-4">
           {/* logo */}
